@@ -9,6 +9,7 @@ res.status(200).json({data:result})
 
 
 const createUser=async(req,res)=>{
+    console.log("create fun start")
 const {name,email,city,age,password}=req.body
 
 console.log(req.body)
